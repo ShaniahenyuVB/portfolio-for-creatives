@@ -1,9 +1,23 @@
 :root {
-    --gradient: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    --gradient: radial-gradient(
+        circle, 
+    #671a69, 
+    #7f2378, 
+    #982d86,
+    #b13693, 
+    #cc40a0, 
+    #d742a1, 
+    #e344a1, 
+    #ee47a1,
+    #eb4396,
+    #e7408b, 
+    #e23e80,
+    #dd3c76
+      );
 }
 
 .gradient-animation {
-    background-size: 600%;
+    background-size: 100%;
     background-image: var(--gradient);
     animation: bg-animation 90s infinite alternate;
 }
