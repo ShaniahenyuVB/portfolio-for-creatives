@@ -10,8 +10,9 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Imbue:opsz,wght@10..100,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap');
 
 /*
 
@@ -70,16 +71,18 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Imbue",serif;
-  --project-title-typeface: 'Eczar', serif;
-  --background-color: #fdfdfd;
+  --body-typeface:  "IBM Plex Sans JP ", sans serif;
+  --heading-typeface: "Calligraffitti", cursive;
+  --hero-heading-typeface: "Imbue",serif;
+
+  --project-title-typeface: "Calligraffitti", cursive;
+  --background-color: rgba(237, 82, 121, 0.985);
   --background-color-about: #f5f5f5;
   --background-color-footer: #f5f5f5;    
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(81, 0, 255, 0.519);
   --h1-color: #f5f4f6;
-  --h2-color: #5200ff;
+  --h2-color: #990139;
   --h3-color: #5200ff;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
@@ -88,7 +91,7 @@ html {
   --holding-page-title-color: #ebedf0;
   --accent-color: #000000;
   --overlay-color: #f5f3f3;
-  --overlay-title-color: rgba(237, 82, 121, 0.985);
+  --overlay-title-color: rgba(242, 75, 117, 0.985);
   --overlay-description-color: #4edfc2;
   --hyperlink-color: #890f25;
   --hyperlink-alternate-color: #000000;
@@ -147,7 +150,7 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-family: var(--heading-typeface);
+  font-family: var(--hero-heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
 }
@@ -328,9 +331,9 @@ a:active {
 }
 
 .logo {
-  width: 3rem;
+  width: 0rem;
 }
-
+.fancy-script{  font-family: "Calligraffitti", cursive;}
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
@@ -840,7 +843,7 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 5rem;
+    width: 20rem;
   }
 
   .hero {
