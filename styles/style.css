@@ -77,13 +77,13 @@ html {
 
   --project-title-typeface: "Calligraffitti", cursive;
   --background-color: #f5f3f3;
-  --background-color-about:#f5f3f3;
+  --background-color-about:rgba(237, 82, 121, 0.985);
   --background-color-footer: #ffa3af;
   --alt-background-color: #f5f3f3;
   --background-color-holding-page: rgba(255, 255, 255, 0.519);
   --h1-color: rgba(237, 82, 121, 0.985);
   --h2-color: #990139;
-  --h3-color: rgb(233, 27, 58);
+  --h3-color: #ffaec8;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
   --h6-color: #5200ff;
