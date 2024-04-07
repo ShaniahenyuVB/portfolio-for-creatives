@@ -1,11 +1,11 @@
 :root {
   --gradient: linear-gradient(
     to right bottom,
-    #ffa3af,
-    #ffa3af,
-    #ffa3af,
-    #ffa3af,
-    #ffa3af
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    hsl(0, 0%, 100%),
+    #ffffff
   );
 }
 

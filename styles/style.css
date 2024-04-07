@@ -90,7 +90,7 @@ html {
   --primary-text-color: rgb(255, 255, 255);
   --holding-page-title-color: #f5f3f3;
   --accent-color: #ffaec8;
-  --overlay-color: #f5f3f3;
+  --overlay-color: rgb(109, 211, 255);
   --overlay-title-color: rgba(242, 75, 117, 0.985);
   --overlay-description-color: #000000;
   --hyperlink-color: #990139;
@@ -102,7 +102,7 @@ html {
   --project-sidebar-text-color: black;
   --heart-color: rgb(233, 27, 58);
   --holding-page-footer-color: #ffffff;
-  --text-selection-background-color: #fcfcfc;
+  --text-selection-background-color: #ffaec8;
   --linear-gradient-color-1: #fc0266ef;
   --linear-gradient-color-2: #76ffcf;
   --linear-gradient-color-3: #d73442;
@@ -121,7 +121,7 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: var(--accent-color);
+  background: var(--text-selection-background-color);
 }
 
 /* Make all images responsive */
